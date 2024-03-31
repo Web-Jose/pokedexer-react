@@ -1,0 +1,224 @@
+.POTD-Card 
+  display: flex
+  flex-direction: column
+  align-items: center
+  gap: 0.375em
+
+.POTD-Card img
+    width: 100%
+
+.POTD-idName
+  display: flex
+  gap: 0.5em
+  font-size: 1.5em
+
+.tag-potd
+  background: #2b2d42
+  color: #edf2f4
+  width: 100%
+  display: flex
+  justify-content: flex-end
+
+.tagline
+  align-self: center
+
+.tagline div
+  display: flex
+  flex-direction: row
+  justify-content: flex-end
+  align-items: baseline
+  gap: .5em
+
+.tagline div h1
+  font-size: 3em
+  font-weight: 700
+  margin: 0
+
+.tagline div h2
+  font-size: 1.5em
+  margin: 0
+
+.potd
+  display: flex
+  flex-direction: column
+  align-items: center
+  gap: 0.5em
+  width: 25%
+  padding: 1.5em
+
+.potd h3
+  font-size: 1.5em
+  font-weight: 700
+  text-align: center
+
+.search-filter
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  gap: 1.5em
+  width: 100%
+
+.search
+  width: 75%
+  display: flex
+  justify-content: center
+  align-items: center
+
+.search input
+  width: 90%
+  font-size: 1.5em
+  background: #2b2d42
+  color: #edf2f4
+  padding: 0.5em 1em
+  border: none
+  border-radius: 1em 0 0 1em
+
+.search button
+    background: #ef233c
+    color: #edf2f4
+    font-size: 1.5em
+    padding: 0.5em 1em
+    border: none
+    border-radius: 0 1em 1em 0
+    cursor: pointer
+    transition: background 0.3s
+
+.search button:hover
+      background: #d90429
+
+.filter
+  display: flex
+  justify-content: center
+  align-items: center
+  gap: 1em
+
+.filter form label
+  font-size: 1.5em
+  color: #2b2d42
+  padding: 0.5em 1em
+  border-radius: 1em
+  cursor: pointer
+
+.pokemon-cards
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  gap: 1.5em
+  width: 90%
+
+.pokemon-card
+  background: #333
+  border-radius: 1.5em
+  padding: 1.25em
+  display: flex
+  flex-direction: column
+  align-items: center
+  gap: 0.375em
+  width: calc(100% - 2.5em)
+  max-width: 300px
+  min-width: 100px
+  
+
+
+.pokemon-ID-Name
+  display: flex
+  justify-content: space-between
+  width: 100%
+  color: #fff
+  font-size: 1.5em
+
+.pokemon-image
+  width: 100%
+  height: auto
+
+.pokemon-types
+  display: flex
+  justify-content: center
+  gap: 0.625em
+
+.type
+  border-radius: 2em
+  padding: 0.25em 1em
+  display: flex
+  justify-content: center
+  align-items: center
+  color: #fff
+  font-size: 1em
+
+.type.normal
+  background: #a8a77a
+
+.type.fire
+  background: #ee8130
+
+.type.water
+  background: #6390f0
+
+.type.electric
+  background: #f7d02c
+
+.type.grass
+  background: #7ac74c
+
+.type.ice
+  background: #96d9d6
+
+.type.fighting
+  background: #c22e28
+
+.type.poison
+  background: #a33ea1
+
+.type.ground
+  background: #e2bf65
+
+.type.flying
+  background: #a98ff3
+
+.type.psychic
+  background: #f95587
+
+.type.bug
+  background: #a6b91a
+
+.type.rock
+  background: #b6a136
+
+.type.ghost
+  background: #735797
+
+.type.dragon
+  background: #6f35fc
+
+.type.dark
+  background: #705746
+
+.type.steel
+  background: #b7b7ce
+
+.type.fairy
+  background: #d685ad
+
+/* Media Queries
+@media screen and (max-width: 768px)
+  .pokemon-cards
+    grid-template-columns: repeat(3, 1fr)
+
+@media screen and (max-width: 425px)
+  .pokemon-cards
+    grid-template-columns: repeat(1, 1fr)
+
+  .pokemon-card
+    flex-direction: row
+
+  .pokemon-ID-Name
+    flex-direction: row
+    justify-content: left
+    gap: 0.5em
+
+  .pokemon-image
+    width: 25%
+
+  .pokemon-types
+    flex-wrap: wrap
+    width: 25%
