@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pokedexer-react/static/css/main.24ce4775.css",
+    "main.js": "/pokedexer-react/static/js/main.392b20f5.js",
+    "static/js/453.684a1903.chunk.js": "/pokedexer-react/static/js/453.684a1903.chunk.js",
+    "index.html": "/pokedexer-react/index.html",
+    "main.24ce4775.css.map": "/pokedexer-react/static/css/main.24ce4775.css.map",
+    "main.392b20f5.js.map": "/pokedexer-react/static/js/main.392b20f5.js.map",
+    "453.684a1903.chunk.js.map": "/pokedexer-react/static/js/453.684a1903.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24ce4775.css",
+    "static/js/main.392b20f5.js"
+  ]
+}
